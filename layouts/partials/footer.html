@@ -1,0 +1,36 @@
+</main>
+	
+<footer class="footer">
+
+    <div class="footer-1">
+
+      <img class="vedro-footer" src="/img/vedro-logo.svg" alt="">
+      <img class="insta" src="/img/instagram-logo.png" alt="">
+
+    </div>
+
+    <ul class="footer-menu">
+      {{ range.Site.Menus.footer }}
+      <li>
+        <a class="footer-items" href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  
+	<!-- <p>&copy;{{ dateFormat "2006" now }} {{ .Site.Title }}</p> -->
+</footer>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+</body>
+</html>

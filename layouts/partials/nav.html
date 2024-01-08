@@ -1,0 +1,15 @@
+<header class="site-header">
+  <nav class="site-nav">
+
+    <img class="logo" src="../img/vedro-logo.svg" alt="">
+
+    <ul class="main-menu">
+      {{ range.Site.Menus.main }}
+      <li>
+        <a class="menu-items" href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+
+</header>

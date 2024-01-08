@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+
+{{ range sort .Pages "Params.weight" }}
+
+  {{ $imagePath := .Params.background_image }}
+
+  {{ if $imagePath }}
+
+    {{ $trimmedLeadingSlash := strings.TrimPrefix "/" $imagePath }}
+
+    {{ $trimmedImagePath := strings.TrimPrefix "assets/" $trimmedLeadingSlash }}
+
+    {{ if $image := resources.GetMatch $trimmedImagePath }}
+
+      <div class="article-wrap" style="background-image: url('{{ ( $image.Resize "600x webp" ).RelPermalink }}');">
+
+        <article class="post-snippet">
+
+          <h3 class="title">
+            {{ .Title }}
+          </h3>
+
+          <p class="desc">
+            {{ .Summary }}
+          </p>
+
+          <button class="button">BUTTON</button>
+          
+        </article>
+
+      </div>
+
+    {{ end }}
+
+  {{ end }}
+
+{{ end }}
+
+{{ partial "footer.html" . }}
