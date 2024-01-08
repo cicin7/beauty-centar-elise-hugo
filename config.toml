@@ -3,50 +3,31 @@ title = "Test Site"
 [menu]
   # main menu
   [[menu.main]]
-    identifier = "services"
-    name = "Services"
-    url = "/services"
+    identifier = "home"
+    name = "Home"
+    url = "/home"
     weight = 10
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 20
-
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact"
-    weight = 30
-
-  # footer menu
-  [[menu.footer]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 10
-
-  [[menu.footer]]
     identifier = "services"
     name = "Services"
     url = "/services"
     weight = 20
 
-  [[menu.footer]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact"
+  [[menu.main]]
+    identifier = "pages"
+    name = "Pages"
+    url = "/pages"
     weight = 30
 
-  [[menu.footer]]
-    identifier = "reviews"
-    name = "Reviews"
-    url = "/reviews"
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio"
     weight = 40
 
-  [[menu.footer]]
-    identifier = "privacy-policy"
-    name = "Privacy policy"
-    url = "/privacy-policy"
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
     weight = 50
