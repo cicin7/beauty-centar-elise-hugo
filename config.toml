@@ -1,33 +1,33 @@
-title = "Test Site"
+title = "Beauty Centar Elise"
 
 [menu]
   # main menu
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/home"
+    url = "/"
     weight = 10
 
   [[menu.main]]
     identifier = "services"
     name = "Services"
-    url = "/services"
+    url = "#"
     weight = 20
 
   [[menu.main]]
     identifier = "pages"
     name = "Pages"
-    url = "/pages"
+    url = "#"
     weight = 30
 
   [[menu.main]]
     identifier = "portfolio"
     name = "Portfolio"
-    url = "/portfolio"
+    url = "#"
     weight = 40
 
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/blog"
+    url = "#"
     weight = 50

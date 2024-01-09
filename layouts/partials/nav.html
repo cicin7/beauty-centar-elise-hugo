@@ -1,15 +1,48 @@
-<header class="site-header">
-  <nav class="site-nav">
-
-    <img class="logo" src="../img/vedro-logo.svg" alt="">
-
-    <ul class="main-menu">
-      {{ range.Site.Menus.main }}
-      <li>
-        <a class="menu-items" href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
+<header class="hero">
+  <nav class="hero--nav">
+    <div class="nav--wrap">
+      <img class="nav--logo" src="../img/logo-white.png" alt="" />
+      <div class="nav--right">
+        <ul class="nav--ul">
+          {{ range.Site.Menus.main }}
+          <li>
+            <a class="nav--li" href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+        <a href="#" target="_blank">
+          <button class="nav--button">BOOK ONLINE</button>
+        </a>
+      </div>
+    </div>
   </nav>
-
+  <div class="slider">
+    <div class="slide-1">
+      <div class="slide--wrap">
+        <h1 class="slide--title">Welcome to Reine Studio</h1>
+        <h3 class="slide--subtitle">Your one stop beauty shop</h3>
+        <a href="#" target="_blank">
+          <button class="slide--button">Discover More</button>
+        </a>
+      </div>
+    </div>
+    <div class="slide-2">
+      <div class="slide--wrap">
+        <h1 class="slide--title">Welcome to Reine Studio</h1>
+        <h3 class="slide--subtitle">Your one stop beauty shop</h3>
+        <a href="#" target="_blank">
+          <button class="slide--button">Discover More</button>
+        </a>
+      </div>
+    </div>
+    <div class="slide-3">
+      <div class="slide--wrap">
+        <h1 class="slide--title">Welcome to Reine Studio</h1>
+        <h3 class="slide--subtitle">Your one stop beauty shop</h3>
+        <a href="#" target="_blank">
+          <button class="slide--button">Discover More</button>
+        </a>
+      </div>
+    </div>
+  </div>
 </header>
