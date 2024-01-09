@@ -53,6 +53,12 @@ var swiper = new Swiper(".swiper", {
   pagination: {
     el: ".swiper-pagination",
   },
+  breakpoints: {
+    // when window width is >= 640px
+    980: {
+      slidesPerView: 1,
+    },
+  },
 });
 
 // animation
@@ -89,4 +95,17 @@ left.forEach((target) => {
 
 bottom.forEach((target) => {
   translateY.observe(target);
+});
+
+/* mob menu */
+var mobtoggle = document.getElementById("mobtoggle");
+var mobmenu = document.getElementById("mobmenu");
+var navslide = document.getElementById("nav-slide");
+var bar = document.getElementById("bar3");
+
+mobtoggle.addEventListener("click", function (e) {
+  mobmenu.classList.toggle("toggle");
+  mobtoggle.classList.toggle("change");
+  navslide.classList.toggle("nav-slide");
+  bar.classList.toggle("bar3-change");
 });
