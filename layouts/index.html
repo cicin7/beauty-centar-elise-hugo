@@ -1,22 +1,14 @@
----
-section2_image: "./img/girl-smiling.jpg"
----
-
 {{ partial "header.html" . }}
 
 <section class="section2">
   <div class="section2--wrap">
     <div class="section2--wrap--left right-animation">
-      <h3 class="section2--wrap--left--subtitle">Mind, body and soul</h3>
-      <h2 class="section2--wrap--left--title">
-        Luxury salon where you will fell unique
-      </h2>
+      <h3 class="section2--wrap--left--subtitle">
+        {{ .Params.section2_subtitle }}
+      </h3>
+      <h2 class="section2--wrap--left--title">{{ .Params.section2_title }}</h2>
       <p class="section2--wrap--left--description">
-        Sagittis congue augue egestas integer velna purus purus magna libero
-        suscipit and egestas magna aliquam ipsum vitae purus justo lacus ligula
-        ipsum primis cubilia donec undo augue luctus vitae egestas a molestie
-        donec libero sapien dapibus congue tempor undo quisque and fusce cursus
-        neque blandit fusce aliquam nulla lacinia
+        {{ .Params.section2_desc }}
       </p>
       <a href="#" target="_blank">
         <button class="section2--wrap--left--button">Discover more</button>
