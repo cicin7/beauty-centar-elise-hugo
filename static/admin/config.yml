@@ -162,11 +162,3 @@ collections:
                 name: "hours"
                 widget: "string"
             required: true
-      - file: "content/_index_s6.md"
-        label: "Section 6"
-        name: "section_6"
-        fields:
-          - label: "Section 6 Image ( 1920 x 1080 )"
-            name: "section6_image"
-            widget: "image"
-            required: true
