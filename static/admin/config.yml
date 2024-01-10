@@ -151,8 +151,8 @@ collections:
             name: "section5_desc"
             widget: "string"
             required: true
-          - label: "Working Days"
-            name: "working_days"
+          - label: "Section 5 Working Days"
+            name: "section5_working_days"
             widget: "list"
             fields:
               - label: "Day"
