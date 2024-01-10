@@ -42,7 +42,7 @@ collections:
               required: true,
             }
       - file: "content/_index.md"
-        label: "Section 33"
+        label: "Section 3"
         name: "section_3"
         fields:
           - {
