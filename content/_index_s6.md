@@ -1,3 +1,3 @@
 ---
-section6_image: /img/bg-01.jpg
+section6_image: /img/girl-smiling.jpg
 ---
