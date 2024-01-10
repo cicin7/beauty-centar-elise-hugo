@@ -18,8 +18,5 @@ collections:
               name: "section2_image",
               widget: "image",
               required: false,
-              media_library:
-                config:
-                  multiple: false
             }
           # Add other fields as necessary
