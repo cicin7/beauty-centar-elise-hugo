@@ -6,6 +6,6 @@ section2_desc: Sagittis congue augue egestas integer velna purus purus magna
   ipsum primis cubilia donec undo augue luctus vitae egestas a molestie donec
   libero sapien dapibus congue tempor undo quisque and fusce cursus neque
   blandit fusce aliquam nulla lacinia
-section2_btn_txt: Discover more and more
+section2_btn_txt: Discover more
 section2_image: /img/girl-smiling.jpg
 ---
