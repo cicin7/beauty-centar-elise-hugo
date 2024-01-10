@@ -194,3 +194,33 @@ collections:
               widget: "string",
               required: true,
             }
+      - file: "content/_index_s5.md"
+        label: "Section 5"
+        name: "section_5"
+        fields:
+          - {
+              label: "Section 5 Subtitle",
+              name: "section5_subtitle",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 5 Title",
+              name: "section5_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 5 Description",
+              name: "section5_desc",
+              widget: "string",
+              required: true,
+            }
+          - {
+            label: "Working Days"
+              name: "working_days"
+              widget: "list"
+              fields:
+                - { label: "Day", name: "day", widget: "string" }
+                - { label: "Hours", name: "hours", widget: "string" }
+            }
