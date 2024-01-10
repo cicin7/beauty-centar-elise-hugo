@@ -11,12 +11,10 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Blurb", name: "blurb", widget: "text" }
           - {
               label: "Section2 Image",
               name: "section2_image",
               widget: "image",
-              required: false,
+              required: true,
             }
           # Add other fields as necessary
