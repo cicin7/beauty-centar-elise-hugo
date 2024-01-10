@@ -4,6 +4,17 @@ backend:
 media_folder: "assets/images" # Folder where user uploaded files should go
 public_folder: "/images"
 collections:
+  - name: "home"
+    label: "Home"
+    files:
+      - file: "layouts/index.html"  # Path to your index.html
+        label: "Homepage"
+        name: "homepage"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          # Add other fields as necessary
+collections:
   # - name: "posts" # Used in routes, e.g., /admin/collections/post
   #   label: "Posts" # Used in the UI
   #   folder: "content/posts" # The path to the folder where the documents are stored
