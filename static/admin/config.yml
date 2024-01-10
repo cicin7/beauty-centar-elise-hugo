@@ -8,8 +8,8 @@ collections:
     label: "Pages"
     files:
       - file: "content/_index.md"
-        label: "Home Page"
-        name: "home"
+        label: "Section 2"
+        name: "section_2"
         fields:
           - {
               label: "Section 2 Subtitle",
