@@ -12,7 +12,7 @@ collections:
         name: "home"
         fields:
           - {
-              label: "Section 2 Image (800x800)",
+              label: "Section 2 Image ( 800 x 800 )",
               name: "section2_image",
               widget: "image",
               required: true,
