@@ -66,50 +66,57 @@
 <section class="section4">
   <div class="section4--wrap">
     <div class="section4--wrap--left right-animation">
-      <img class="section4--wrap--left--img" src="./img/woman_01.jpg" alt="" />
+      <img
+        class="section4--wrap--left--img"
+        src="{{ .Params.section4_image }}"
+        alt=""
+      />
     </div>
     <div class="section4--wrap--right left-animation">
-      <h3 class="section4--wrap--right--subtitle">Naturally you</h3>
-      <h1 class="section4--wrap--right--title">
-        Look more natural with Reine studio
-      </h1>
+      <h3 class="section4--wrap--right--subtitle">
+        {{ .Params.section4_subtitle }}
+      </h3>
+      <h1 class="section4--wrap--right--title">{{ .Params.section4_title }}</h1>
       <div class="section4--wrap--right--dropdown">
         <div class="dropdown--wrap">
-          <h1 class="dropdown--title">Certified Stylists</h1>
+          <h1 class="dropdown--title">
+            {{ .Params.section4_dropdown1_title }}
+          </h1>
           <div class="dropdown--icon">
             <div class="icon--one"></div>
             <div class="icon--two"></div>
           </div>
         </div>
         <div class="dropdown--description">
-          Nemo ipsam magna volute placerat a turpis ipsum purus sapien ultrice
-          ipsum aliquam congue dolor
+          {{ .Params.section4_dropdown1_desc }}
         </div>
       </div>
       <div class="section4--wrap--right--dropdown">
         <div class="dropdown--wrap">
-          <h1 class="dropdown--title">100% Organic Cosmetics</h1>
+          <h1 class="dropdown--title">
+            {{ .Params.section4_dropdown2_title }}
+          </h1>
           <div class="dropdown--icon">
             <div class="icon--one"></div>
             <div class="icon--two"></div>
           </div>
         </div>
         <div class="dropdown--description">
-          Magna sapien dolor vitae molestie nunc augue and primis quisque sapien
-          justo aliquet venenatis quaerat
+          {{ .Params.section4_dropdown2_desc }}
         </div>
       </div>
       <div class="section4--wrap--right--dropdown">
         <div class="dropdown--wrap">
-          <h1 class="dropdown--title">Easy Online Booking</h1>
+          <h1 class="dropdown--title">
+            {{ .Params.section4_dropdown3_title }}
+          </h1>
           <div class="dropdown--icon">
             <div class="icon--one"></div>
             <div class="icon--two"></div>
           </div>
         </div>
         <div class="dropdown--description">
-          Volute magna nemo ipsam placerat turpis ipsum purus sapien ultrice
-          ipsum aliquam an ipsum congue cursus
+          {{ .Params.section4_dropdown3_desc }}
         </div>
       </div>
     </div>

@@ -135,3 +135,62 @@ collections:
               widget: "string",
               required: true,
             }
+      - file: "content/_index_s4.md"
+        label: "Section 4"
+        name: "section_4"
+        fields:
+          - {
+              label: "Section 4 Image ( 800 x 800 )",
+              name: "section4_image",
+              widget: "image",
+              required: true,
+            }
+
+          - {
+              label: "Section 4 Subtitle",
+              name: "section4_subtitle",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 4 Title",
+              name: "section4_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 4 - Dropdown 1 - Title",
+              name: "section4_dropdown1_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 4 - Dropdown 1 - Description",
+              name: "section4_dropdown1_desc",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 4 - Dropdown 2 - Title",
+              name: "section4_dropdown2_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 4 - Dropdown 2 - Description",
+              name: "section4_dropdown2_desc",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 4 - Dropdown 3 - Title",
+              name: "section4_dropdown3_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 4 - Dropdown 3 - Description",
+              name: "section4_dropdown3_desc",
+              widget: "string",
+              required: true,
+            }
