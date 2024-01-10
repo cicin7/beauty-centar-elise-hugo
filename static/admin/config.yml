@@ -12,6 +12,30 @@ collections:
         name: "home"
         fields:
           - {
+              label: "Section 2 Subtitle",
+              name: "section2_subtitle",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 2 Title",
+              name: "section2_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 2 Description",
+              name: "section2_desc",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 2 Button Text",
+              name: "section2_btn_txt",
+              widget: "string",
+              required: true,
+            }
+          - {
               label: "Section 2 Image ( 800 x 800 )",
               name: "section2_image",
               widget: "image",
