@@ -217,10 +217,10 @@ collections:
               required: true,
             }
           - {
-            label: "Working Days"
-              name: "working_days"
-              widget: "list"
+              label: "Working Days",
+              name: "working_days",
+              widget: "list",
               fields:
-                - { label: "Day", name: "day", widget: "string" }
-                - { label: "Hours", name: "hours", widget: "string" }
+                - { label: "Day", name: "day", widget: "string" },
+                - { label: "Hours", name: "hours", widget: "string" },
             }
