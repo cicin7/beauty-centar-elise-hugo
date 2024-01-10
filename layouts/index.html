@@ -148,7 +148,7 @@
 
 <section
   class="section6"
-  style="background-image: {{ .Params.section6_image }};"
+  style="background-image: url('{{ .Params.section6_image | safeCSS }}');"
 ></section>
 
 <section class="section7" id="services">
