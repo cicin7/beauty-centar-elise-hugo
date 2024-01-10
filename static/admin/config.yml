@@ -41,4 +41,97 @@ collections:
               widget: "image",
               required: true,
             }
-          # Add other fields as necessary
+      - file: "content/_index.md"
+        label: "Section 3"
+        name: "section_3"
+        fields:
+          - {
+              label: "Section 3 Subtitle",
+              name: "section3_subtitle",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 3 Title",
+              name: "section3_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 3 Description",
+              name: "section3_desc",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 1 - Image ( 80 x 80 )",
+              name: "section3_icon1_img",
+              widget: "image",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 1 - Title",
+              name: "section3_icon1_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 1 - Description",
+              name: "section3_icon1_desc",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 2 - Image ( 80 x 80 )",
+              name: "section3_icon2_img",
+              widget: "image",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 2 - Title",
+              name: "section3_icon2_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 2 - Description",
+              name: "section3_icon2_desc",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 3 - Image ( 80 x 80 )",
+              name: "section3_icon3_img",
+              widget: "image",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 3 - Title",
+              name: "section3_icon3_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 3 - Description",
+              name: "section3_icon3_desc",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 4 - Image ( 80 x 80 )",
+              name: "section3_icon4_img",
+              widget: "image",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 4 - Title",
+              name: "section3_icon4_title",
+              widget: "string",
+              required: true,
+            }
+          - {
+              label: "Section 3 - Icon 4 - Description",
+              name: "section3_icon4_desc",
+              widget: "string",
+              required: true,
+            }

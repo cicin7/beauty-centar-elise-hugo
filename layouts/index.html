@@ -30,46 +30,34 @@
 <section class="section3">
   <div class="section3--wrap">
     <div class="section3--wrap--top">
-      <h3 class="section3--wrap--top--subtitle">Indulge yourself</h3>
-      <h2 class="section3--wrap--top--title">Your secret Place of Beauty</h2>
+      <h3 class="section3--wrap--top--subtitle">
+        {{ .Params.section3_subtitle }}
+      </h3>
+      <h2 class="section3--wrap--top--title">{{ .Params.section3_title }}</h2>
       <p class="section3--wrap--top--description">
-        Congue augue sagittis egestas integer velna purus purus magna nec
-        suscipit and egestas magna aliquam ipsum vitae purus justo lacus ligula
-        and ipsum lacinia primis cubilia
+        {{ .Params.section3_desc }}
       </p>
     </div>
     <div class="section3--wrap--bottom bottom-animation">
       <div class="cards--card">
-        <img class="card--icon" src="./img/facial-icon.png" alt="" />
-        <h3 class="card--title">Facials</h3>
-        <p class="card--description">
-          Sagittis congue augue egestas integer diam purus magna and egestas
-          magna suscipit
-        </p>
+        <img class="card--icon" src="{{ .Params.section3_icon1_img }}" alt="" />
+        <h3 class="card--title">{{ .Params.section3_icon1_title }}</h3>
+        <p class="card--description">{{ .Params.section3_icon1_desc }}</p>
       </div>
       <div class="cards--card">
-        <img class="card--icon" src="./img/facial-icon.png" alt="" />
-        <h3 class="card--title">Facials</h3>
-        <p class="card--description">
-          Sagittis congue augue egestas integer diam purus magna and egestas
-          magna suscipit
-        </p>
+        <img class="card--icon" src="{{ .Params.section3_icon1_img }}" alt="" />
+        <h3 class="card--title">{{ .Params.section3_icon1_title }}</h3>
+        <p class="card--description">{{ .Params.section3_icon1_desc }}</p>
       </div>
       <div class="cards--card">
-        <img class="card--icon" src="./img/facial-icon.png" alt="" />
-        <h3 class="card--title">Facials</h3>
-        <p class="card--description">
-          Sagittis congue augue egestas integer diam purus magna and egestas
-          magna suscipit
-        </p>
+        <img class="card--icon" src="{{ .Params.section3_icon1_img }}" alt="" />
+        <h3 class="card--title">{{ .Params.section3_icon1_title }}</h3>
+        <p class="card--description">{{ .Params.section3_icon1_desc }}</p>
       </div>
       <div class="cards--card">
-        <img class="card--icon" src="./img/facial-icon.png" alt="" />
-        <h3 class="card--title">Facials</h3>
-        <p class="card--description">
-          Sagittis congue augue egestas integer diam purus magna and egestas
-          magna suscipit
-        </p>
+        <img class="card--icon" src="{{ .Params.section3_icon1_img }}" alt="" />
+        <h3 class="card--title">{{ .Params.section3_icon1_title }}</h3>
+        <p class="card--description">{{ .Params.section3_icon1_desc }}</p>
       </div>
     </div>
   </div>
