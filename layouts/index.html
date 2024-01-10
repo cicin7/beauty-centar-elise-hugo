@@ -1,3 +1,7 @@
+---
+section2_image: "./img/girl-smiling.jpg"
+---
+
 {{ partial "header.html" . }}
 
 <section class="section2">
@@ -22,7 +26,7 @@
     <div class="section2--wrap--right left-animation">
       <img
         class="section2--wrap--right--img"
-        src="./img/girl-smiling.jpg"
+        src="{{ .Params.section2_image }}"
         alt=""
       />
     </div>

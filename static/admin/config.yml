@@ -1,16 +1,25 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "assets/images" # Folder where user uploaded files should go
-public_folder: "/images"
+media_folder: "static/img" # Folder where user uploaded files should go
+public_folder: "/img"
 collections:
-  - name: "Beauty Centar Elis"
-    label: "Beauty Centar Elis"
+  - name: "pages"
+    label: "Pages"
     files:
-      - file: "layouts/index.html" # Path to your index.html
-        label: "Homepage"
-        name: "homepage"
+      - file: "content/_index.md"
+        label: "Home Page"
+        name: "home"
         fields:
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Blurb", name: "blurb", widget: "text" }
+          - {
+              label: "Section2 Image",
+              name: "section2_image",
+              widget: "image",
+              required: false,
+              media_library:
+                config:
+                  multiple: false
+            }
           # Add other fields as necessary
