@@ -58,5 +58,5 @@ section5_working_days:
     hours: 10:00 AM - 9:00 PM
   - day: Sat - Sun
     hours: 10:00 AM - 5:00 PM
-section6_image: /img/girl-smiling.jpg
+section6_image: /img/bg-01.jpg
 ---
