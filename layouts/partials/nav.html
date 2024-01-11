@@ -1,76 +1,75 @@
-<header class="hero">
-  <nav class="hero--nav">
-    <div class="nav--wrap">
-      <img class="nav--logo" src="../img/logo-white.png" alt="" />
-      <div class="nav--right">
-        <ul class="nav--ul">
+{{ $nav := .Site.GetPage "/nav" }}
+{{ with $nav }}
+  <header class="hero">
+    <nav class="hero--nav">
+      <div class="nav--wrap">
+        <img class="nav--logo" src="{{ .Params.header_logo_desk_img }}" alt="" />
+        <div class="nav--right">
+          <ul class="nav--ul">
+            {{ range.Site.Menus.main }}
+            <li>
+              <a class="nav--li" href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+          <a href="#" target="_blank">
+            <button class="nav--button">{{ .Params.header_button_txt }}</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <nav class="hero--nav--mob">
+      <div class="nav--wrap nav--wrap--mob" id="nav-slide">
+        <img class="nav--logo nav--logo--mob" src="{{ .Params.header_logo_mob_img }}" alt=""/>
+        <div class="barholder" id="mobtoggle">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3" id="bar3"></div>
+        </div>
+      </div>
+      <div class="nav--right nav--right--mob" id="mobmenu">
+        <ul class="nav--ul nav--ul--mob">
           {{ range.Site.Menus.main }}
           <li>
-            <a class="nav--li" href="{{ .URL }}">{{ .Name }}</a>
+            <a class="nav--li nav--li--mob" href="{{ .URL }}">{{ .Name }}</a>
           </li>
+          <div class="li--border-bottom"></div>
           {{ end }}
         </ul>
         <a href="#" target="_blank">
-          <button class="nav--button">BOOK ONLINE</button>
+          <button class="nav--button nav--button--mob">BOOK ONLINE</button>
         </a>
       </div>
-    </div>
-  </nav>
-  <nav class="hero--nav--mob">
-    <div class="nav--wrap nav--wrap--mob" id="nav-slide">
-      <img
-        class="nav--logo nav--logo--mob"
-        src="../img/logo-black.png"
-        alt=""
-      />
-      <div class="barholder" id="mobtoggle">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3" id="bar3"></div>
-      </div>
-    </div>
-    <div class="nav--right nav--right--mob" id="mobmenu">
-      <ul class="nav--ul nav--ul--mob">
-        {{ range.Site.Menus.main }}
-        <li>
-          <a class="nav--li nav--li--mob" href="{{ .URL }}">{{ .Name }}</a>
-        </li>
-        <div class="li--border-bottom"></div>
-        {{ end }}
-      </ul>
-      <a href="#" target="_blank">
-        <button class="nav--button nav--button--mob">BOOK ONLINE</button>
-      </a>
-    </div>
-  </nav>
+    </nav>
 
-  <div class="slider">
-    <div class="slide-1">
-      <div class="slide--wrap">
-        <h1 class="slide--title">Welcome to Reine Studio</h1>
-        <h3 class="slide--subtitle">Your one stop beauty shop</h3>
-        <a href="#" target="_blank">
-          <button class="slide--button">Discover More</button>
-        </a>
+    <div class="slider">
+      <div class="slide-1" style="background-image: url('{{ .Params.header_slide1_image }}');">
+        <div class="slide--wrap">
+          <h1 class="slide--title">{{ .Params.header_slide1_title }}</h1>
+          <h3 class="slide--subtitle">{{ .Params.header_slide1_subtitle }}</h3>
+          <a href="#" target="_blank">
+            <button class="slide--button">{{ .Params.header_slide1_button_txt }}</button>
+          </a>
+        </div>
+      </div>
+      <div class="slide-2">
+        <div class="slide--wrap">
+          <h1 class="slide--title">{{ .Params.header_slide2_title }}</h1>
+          <h3 class="slide--subtitle">{{ .Params.header_slide2_subtitle }}</h3>
+          <a href="#" target="_blank">
+            <button class="slide--button">{{ .Params.header_slide2_button_txt }}</button>
+          </a>
+        </div>
+      </div>
+      <div class="slide-3">
+        <div class="slide--wrap">
+          <h1 class="slide--title">{{ .Params.header_slide3_title }}</h1>
+          <h3 class="slide--subtitle">{{ .Params.header_slide3_subtitle }}</h3>
+          <a href="#" target="_blank">
+            <button class="slide--button">{{ .Params.header_slide3_button_txt }}</button>
+          </a>
+        </div>
       </div>
     </div>
-    <div class="slide-2">
-      <div class="slide--wrap">
-        <h1 class="slide--title">Welcome to Reine Studio</h1>
-        <h3 class="slide--subtitle">Your one stop beauty shop</h3>
-        <a href="#" target="_blank">
-          <button class="slide--button">Discover More</button>
-        </a>
-      </div>
-    </div>
-    <div class="slide-3">
-      <div class="slide--wrap">
-        <h1 class="slide--title">Welcome to Reine Studio</h1>
-        <h3 class="slide--subtitle">Your one stop beauty shop</h3>
-        <a href="#" target="_blank">
-          <button class="slide--button">Discover More</button>
-        </a>
-      </div>
-    </div>
-  </div>
-</header>
+  </header>
+{{ end }}
