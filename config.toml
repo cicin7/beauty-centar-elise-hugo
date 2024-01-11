@@ -1,33 +1,33 @@
-title = "Beauty Centar Elise"
+title = "Beauty Centar Elis"
 
 [menu]
-  # main menu
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10
 
-  [[menu.main]]
-    identifier = "services"
-    name = "Services"
-    url = "#"
-    weight = 20
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
 
-  [[menu.main]]
-    identifier = "pages"
-    name = "Pages"
-    url = "#"
-    weight = 30
+[[menu.main]]
+identifier = "services"
+name = "Services"
+url = "#"
+weight = 20
 
-  [[menu.main]]
-    identifier = "portfolio"
-    name = "Portfolio"
-    url = "#"
-    weight = 40
+[[menu.main]]
+identifier = "pages"
+name = "Pages"
+url = "#"
+weight = 30
 
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "#"
-    weight = 50
+[[menu.main]]
+identifier = "portfolio"
+name = "Portfolio"
+url = "#"
+weight = 40
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "#"
+weight = 50
