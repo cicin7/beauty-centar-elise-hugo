@@ -11,9 +11,6 @@ collections:
         label: "Sections"
         name: "sections"
         fields:
-            hint: "-----------------"
-            hint: "--- Section 2 ---"
-            hint: "-----------------"
           - label: "Section 2 Subtitle"
             name: "section2_subtitle"
             widget: "string"
