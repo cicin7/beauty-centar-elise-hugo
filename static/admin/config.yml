@@ -12,8 +12,8 @@ collections:
         name: "title"
         widget: "string"
       - label: "Menus"
-         name: "menu"
-         widget: "object"
+        name: "menu"
+        widget: "object"
         fields:
           - label: "Main Menu"
             name: "main"
