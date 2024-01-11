@@ -59,7 +59,6 @@ section5_working_days:
   - day: Sat - Sun
     hours: 10:00 AM - 5:00 PM
 section6_image: /img/bg-01.jpg
-<<<<<<< HEAD
 # Section 7
 section7_subtitle: FOCUS ON BEAUTY
 section7_title: Our Service Menu
@@ -102,6 +101,4 @@ section7_treatments_right:
     price: "$130"
     duration: "Service length 55 minutes"
 section7_button_txt: View all prices
-=======
->>>>>>> c960363146c5fd0ad3ed1c7c9ad1e362cccae142
 ---
