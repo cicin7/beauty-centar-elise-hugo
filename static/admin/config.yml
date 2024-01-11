@@ -33,6 +33,9 @@ collections:
         label: "Section 3"
         name: "section 3"
         fields:
+          - label: "Section 3 Subtitle"
+            name: "section3_subtitle"
+            widget: "string"
           - label: "Section 3 Title"
             name: "section3_title"
             widget: "string"
