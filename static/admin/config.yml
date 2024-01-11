@@ -11,6 +11,7 @@ collections:
         label: "Sections"
         name: "sections"
         fields:
+            hint: "----- Section 2 -----"
           - label: "Section 2 Subtitle"
             name: "section2_subtitle"
             widget: "string"
@@ -35,9 +36,7 @@ collections:
             name: "section3_subtitle"
             widget: "string"
             required: true
-            hint: "-----------------"
-            hint: "--- Section 3 ---"
-            hint: "-----------------"
+            hint: "----- Section 3 -----"
           - label: "Section 3 Title"
             name: "section3_title"
             widget: "string"
@@ -60,9 +59,7 @@ collections:
                 name: "description"
                 widget: "string"
             required: true
-            hint: "-----------------"
-            hint: "--- Section 4 ---"
-            hint: "-----------------"
+            hint: "----- Section 4 -----"
           - label: "Section 4 Image ( 800 x 800 )"
             name: "section4_image"
             widget: "image"
@@ -86,9 +83,7 @@ collections:
                 name: "description"
                 widget: "string"
             required: true
-            hint: "-----------------"
-            hint: "--- Section 5 ---"
-            hint: "-----------------"
+            hint: "----- Section 5 -----"
           - label: "Section 5 Subtitle"
             name: "section5_subtitle"
             widget: "string"
