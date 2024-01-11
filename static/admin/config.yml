@@ -4,6 +4,36 @@ backend:
 media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "/img"
 collections:
+  - name: "config"
+    label: "Site Configuration"
+    files:
+      - name: "main"
+        label: "Main Configuration"
+        file: "config.toml"
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Menus"
+            name: "menu"
+            widget: "object"
+            fields:
+              - label: "Main Menu"
+                name: "main"
+                widget: "list"
+                fields:
+                  - label: "Identifier"
+                    name: "identifier"
+                    widget: "string"
+                  - label: "Name"
+                    name: "name"
+                    widget: "string"
+                  - label: "URL"
+                    name: "url"
+                    widget: "string"
+                  - label: "Weight"
+                    name: "weight"
+                    widget: "number"
   - name: "Sections"
     label: "Sections"
     files:
