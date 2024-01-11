@@ -1,4 +1,6 @@
-<section class="section3">
+{{ $section3 := .Site.GetPage "/section3" }}
+{{ with $section3 }}
+  <section class="section3">
     <div class="section3--wrap">
       <div class="section3--wrap--top">
         <h3 class="section3--wrap--top--subtitle">{{ .Params.section3_subtitle }}</h3>
@@ -16,3 +18,4 @@
       </div>
     </div>
   </section>  
+{{ end }}

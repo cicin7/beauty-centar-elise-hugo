@@ -1,4 +1,6 @@
-<section class="section4">
+{{ $section4 := .Site.GetPage "/section4" }}
+{{ with $section4 }}
+  <section class="section4">
     <div class="section4--wrap">
       <div class="section4--wrap--left right-animation">
         <img class="section4--wrap--left--img" src="{{ .Params.section4_image }}" alt=""/>
@@ -23,3 +25,4 @@
       </div>  
     </div>
   </section>  
+{{ end }}

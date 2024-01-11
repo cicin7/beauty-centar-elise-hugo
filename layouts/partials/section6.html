@@ -1,1 +1,4 @@
-<section class="section6" style="background-image: url('{{ .Params.section6_image }}');"></section>
+{{ $section6 := .Site.GetPage "/section6" }}
+{{ with $section6}}
+    <section class="section6" style="background-image: url('{{ .Params.section6_image }}');"></section>
+{{ end }}
