@@ -6,7 +6,7 @@ section5_desc: Nemo ipsam egestas volute turpis varius ipsum egestas purus diam
   quaerat aliquet congue and molestie magna in congue undo aliquet congue
   ultrices quaerat purus justo
 section5_working_days:
-  - day: Mon - Weds
+  - day: Mon - Wed
     hours: 10:00 AM - 9:00 PM
   - day: Thursday
     hours: 10:00 AM - 7:30 PM
