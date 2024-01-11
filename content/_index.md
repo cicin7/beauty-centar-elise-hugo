@@ -1,6 +1,6 @@
 ---
 section2_subtitle: Mind, body and soul
-section2_title: Luxury salon where you will fell unique
+section2_title: Luxury salon where you will fell unique IVAN
 section2_desc: Sagittis congue augue egestas integer velna purus purus magna
   libero suscipit and egestas magna aliquam ipsum vitae purus justo lacus ligula
   ipsum primis cubilia donec undo augue luctus vitae egestas a molestie donec
