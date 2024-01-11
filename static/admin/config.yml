@@ -7,7 +7,7 @@ collections:
   - name: "Homepage"
     label: "Homepage"
     files:
-      - file: "content/_index2.md"
+      - file: "content/index2.md"
         label: "Section 2"
         name: "section 2"
         fields:
