@@ -8,8 +8,8 @@ collections:
     label: "Sections"
     files:
       - file: "content/_index.md"
-        label: "Section 2"
-        name: "section_2"
+        label: "Sections"
+        name: "sections"
         fields:
           - label: "Section 2 Subtitle"
             name: "section2_subtitle"
@@ -31,10 +31,6 @@ collections:
             name: "section2_image"
             widget: "image"
             required: true
-      - file: "content/_index.md"
-        label: "Section 3"
-        name: "section_3"
-        fields:
           - label: "Section 3 Subtitle"
             name: "section3_subtitle"
             widget: "string"
@@ -61,10 +57,6 @@ collections:
                 name: "description"
                 widget: "string"
             required: true
-      - file: "content/_index.md"
-        label: "Section 4"
-        name: "section_4"
-        fields:
           - label: "Section 4 Image ( 800 x 800 )"
             name: "section4_image"
             widget: "image"
@@ -88,10 +80,6 @@ collections:
                 name: "description"
                 widget: "string"
             required: true
-      - file: "content/_index.md"
-        label: "Section 5"
-        name: "section_5"
-        fields:
           - label: "Section 5 Subtitle"
             name: "section5_subtitle"
             widget: "string"
