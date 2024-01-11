@@ -100,5 +100,5 @@ section7_treatments_right:
     price: $130
     duration: Service length 55 minutes
 section7_button_txt: View all prices
-section7_button_href: https://www.24sata.hr
+section7_button_href: "#"
 ---
