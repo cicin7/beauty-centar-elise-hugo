@@ -14,36 +14,28 @@ collections:
           - label: "Section 2 Subtitle"
             name: "section2_subtitle"
             widget: "string"
-            required: true
           - label: "Section 2 Title"
             name: "section2_title"
             widget: "string"
-            required: true
           - label: "Section 2 Description"
             name: "section2_desc"
             widget: "string"
-            required: true
           - label: "Section 2 Button Text"
             name: "section2_btn_txt"
             widget: "string"
-            required: true
           - label: "Section 2 Image ( 800 x 800 )"
             name: "section2_image"
             widget: "image"
-            required: true
           - label: "Section 3 Subtitle"
             name: "section3_subtitle"
             widget: "string"
-            required: true
             hint: "----- SECTION 3 -----"
           - label: "Section 3 Title"
             name: "section3_title"
             widget: "string"
-            required: true
           - label: "Section 3 Description"
             name: "section3_desc"
             widget: "string"
-            required: true
           - label: "Section 3 Cards"
             name: "section3_cards"
             widget: "list"
@@ -57,20 +49,16 @@ collections:
               - label: "Icon Description"
                 name: "description"
                 widget: "string"
-            required: true
             hint: "----- SECTION 4 -----"
           - label: "Section 4 Image ( 800 x 800 )"
             name: "section4_image"
             widget: "image"
-            required: true
           - label: "Section 4 Subtitle"
             name: "section4_subtitle"
             widget: "string"
-            required: true
           - label: "Section 4 Title"
             name: "section4_title"
             widget: "string"
-            required: true
           - label: "Section 4 Dropdowns"
             name: "section4_dropdowns"
             widget: "list"
@@ -81,20 +69,16 @@ collections:
               - label: "Dropdown Description"
                 name: "description"
                 widget: "string"
-            required: true
             hint: "----- SECTION 5 -----"
           - label: "Section 5 Subtitle"
             name: "section5_subtitle"
             widget: "string"
-            required: true
           - label: "Section 5 Title"
             name: "section5_title"
             widget: "string"
-            required: true
           - label: "Section 5 Description"
             name: "section5_desc"
             widget: "string"
-            required: true
           - label: "Section 5 Working Days"
             name: "section5_working_days"
             widget: "list"
@@ -105,4 +89,3 @@ collections:
               - label: "Hours"
                 name: "hours"
                 widget: "string"
-            required: true
