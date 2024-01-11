@@ -227,6 +227,7 @@ collections:
         label: "Footer"
         name: "footer"
         fields:
+            hint: "↓↓↓↓ SECTION 1 ↓↓↓↓↓"
           - label: "Footer Section 1 - Title"
             name: "footer_section1_title"
             widget: "string"
@@ -237,6 +238,7 @@ collections:
               - label: "Info"
                 name: "info"
                 widget: "string"
+            hint: "↓↓↓↓ SECTION 2 ↓↓↓↓↓"
           - label: "Footer Section 2 - Title"
             name: "footer_section2_title"
             widget: "string"
@@ -247,6 +249,7 @@ collections:
               - label: "Info"
                 name: "info"
                 widget: "string"
+            hint: "↓↓↓↓ SECTION 3 ↓↓↓↓↓"
           - label: "Footer Section 3 - Title"
             name: "footer_section3_title"
             widget: "string"
