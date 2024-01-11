@@ -1,0 +1,39 @@
+<section class="section7" id="services">
+    <div class="section7--wrap">
+      <div class="section7--wrap--top">
+        <h3 class="section7--wrap--top--subtitle">{{ .Params.section7_subtitle }}</h3>
+        <h1 class="section7--wrap--top--title">{{ .Params.section7_title }}</h1>
+      </div>
+      <div class="section7--wrap--bottom bottom-animation">
+        <!-- left side -->
+        <ul class="section7--wrap--bottom--ul">
+            {{ range .Params.section7_treatments_left }}
+            <li class="ul--li">
+                <div class="ul--li--info">
+                    <h3 class="ul--li--info--title">{{ .title }}</h3>
+                    <div class="ul--li--info--separator"></div>
+                    <span class="ul--li--info--price">{{ .price }}</span>
+                </div>
+                <div class="ul--li--description">{{ .duration }}</div>
+            </li>
+            {{ end }}
+        </ul>     
+        <!-- right side -->
+        <ul class="section7--wrap--bottom--ul">
+            {{ range .Params.section7_treatments_right }}
+            <li class="ul--li">
+                <div class="ul--li--info">
+                    <h3 class="ul--li--info--title">{{ .title }}</h3>
+                    <div class="ul--li--info--separator"></div>
+                    <span class="ul--li--info--price">{{ .price }}</span>
+                </div>
+                <div class="ul--li--description">{{ .duration }}</div>
+            </li>
+            {{ end }}
+        </ul>     
+      </div>
+      <a href="{{ .Params.section7_button_href }}" target="_blank">
+        <button class="section7--button">{{ .Params.section7_button_txt }}</button>
+      </a>
+    </div>
+  </section>  

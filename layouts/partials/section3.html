@@ -1,0 +1,18 @@
+<section class="section3">
+    <div class="section3--wrap">
+      <div class="section3--wrap--top">
+        <h3 class="section3--wrap--top--subtitle">{{ .Params.section3_subtitle }}</h3>
+        <h2 class="section3--wrap--top--title">{{ .Params.section3_title }}</h2>
+        <p class="section3--wrap--top--description">{{ .Params.section3_desc }}</p>
+      </div>
+      <div class="section3--wrap--bottom bottom-animation">
+        {{ range .Params.section3_cards }}
+          <div class="cards--card">
+            <img class="card--icon" src="{{ .icon_img }}" alt="" />
+            <h3 class="card--title">{{ .title }}</h3>
+            <p class="card--description">{{ .description }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>  

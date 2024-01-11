@@ -1,0 +1,25 @@
+<section class="section4">
+    <div class="section4--wrap">
+      <div class="section4--wrap--left right-animation">
+        <img class="section4--wrap--left--img" src="{{ .Params.section4_image }}" alt=""/>
+      </div>
+      <div class="section4--wrap--right left-animation">
+        <h3 class="section4--wrap--right--subtitle">{{ .Params.section4_subtitle }}</h3>
+        <h1 class="section4--wrap--right--title">{{ .Params.section4_title }}</h1>
+        
+        {{ range .Params.section4_dropdowns }}
+          <div class="section4--wrap--right--dropdown">
+            <div class="dropdown--wrap">
+              <h1 class="dropdown--title">{{ .title }}</h1>
+              <div class="dropdown--icon">
+                <div class="icon--one"></div>
+                <div class="icon--two"></div>
+              </div>
+            </div>
+            <div class="dropdown--description">{{ .description }}</div>
+          </div>
+        {{ end }}
+        
+      </div>  
+    </div>
+  </section>  
