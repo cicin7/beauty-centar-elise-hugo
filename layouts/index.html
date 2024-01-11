@@ -90,115 +90,39 @@
 <section class="section7" id="services">
   <div class="section7--wrap">
     <div class="section7--wrap--top">
-      <h3 class="section7--wrap--top--subtitle">Focus on beauty</h3>
-      <h1 class="section7--wrap--top--title">Our service menu</h1>
+      <h3 class="section7--wrap--top--subtitle">{{ .Params.section7_subtitle }}</h3>
+      <h1 class="section7--wrap--top--title">{{ .Params.section7_title }}</h1>
     </div>
     <div class="section7--wrap--bottom bottom-animation">
       <!-- left side -->
       <ul class="section7--wrap--bottom--ul">
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Herbal Facial</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">$75</span>
-          </div>
-          <div class="ul--li--description">Service length 1 hour</div>
-        </li>
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Deep Cleaning Facial</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">$130</span>
-          </div>
-          <div class="ul--li--description">Service length 55 minutes</div>
-        </li>
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Organic Facial</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price"> $185</span>
-          </div>
-          <div class="ul--li--description">Service length 1,5 hours</div>
-        </li>
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Four Layer Facial</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">$140</span>
-          </div>
-          <div class="ul--li--description">Service length 1,5 hours</div>
-        </li>
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Biolight Facial</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">$165</span>
-          </div>
-          <div class="ul--li--description">Service length 1,5 hours</div>
-        </li>
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Oxygen Blast Facial</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">$265</span>
-          </div>
-          <div class="ul--li--description">Service length 60 minutes</div>
-        </li>
-      </ul>
+          {{ range .Params.section7_treatments_left }}
+          <li class="ul--li">
+              <div class="ul--li--info">
+                  <h3 class="ul--li--info--title">{{ .title }}</h3>
+                  <div class="ul--li--info--separator"></div>
+                  <span class="ul--li--info--price">{{ .price }}</span>
+              </div>
+              <div class="ul--li--description">{{ .duration }}</div>
+          </li>
+          {{ end }}
+      </ul>     
       <!-- right side -->
       <ul class="section7--wrap--bottom--ul">
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Eyebrow Tinting</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">$15+</span>
-          </div>
-          <div class="ul--li--description">Service length 40 minutes</div>
-        </li>
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Eyelash Tinting</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">$25+</span>
-          </div>
-          <div class="ul--li--description">Service length 2 hours</div>
-        </li>
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Lash Application</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">$45+</span>
-          </div>
-          <div class="ul--li--description">Service length 50 minutes</div>
-        </li>
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Eyebrow Shaping</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">$50 - $97</span>
-          </div>
-          <div class="ul--li--description">Service length 1,5 hours</div>
-        </li>
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Brow Tint</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">From $50</span>
-          </div>
-          <div class="ul--li--description">Service length 1 hour</div>
-        </li>
-        <li class="ul--li">
-          <div class="ul--li--info">
-            <h3 class="ul--li--info--title">Lash Tint</h3>
-            <div class="ul--li--info--separator"></div>
-            <span class="ul--li--info--price">From $50</span>
-          </div>
-          <div class="ul--li--description">Service length 50 minutes</div>
-        </li>
-      </ul>
+          {{ range .Params.section7_treatments_right }}
+          <li class="ul--li">
+              <div class="ul--li--info">
+                  <h3 class="ul--li--info--title">{{ .title }}</h3>
+                  <div class="ul--li--info--separator"></div>
+                  <span class="ul--li--info--price">{{ .price }}</span>
+              </div>
+              <div class="ul--li--description">{{ .duration }}</div>
+          </li>
+          {{ end }}
+      </ul>     
     </div>
     <a href="#" target="_blank">
-      <button class="section7--button">View all prices</button>
+      <button class="section7--button">{{ .Params.section7_button_txt }}</button>
     </a>
   </div>
 </section>
