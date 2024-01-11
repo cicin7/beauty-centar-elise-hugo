@@ -6,7 +6,7 @@ section2_desc: Sagittis congue augue egestas integer velna purus purus
   ligulaipsum primis cubilia donec undo augue luctus vitae egestas a molestie
   doneclibero sapien dapibus congue tempor undo quisque and fusce cursus
   nequeblandit fusce aliquam nulla lacinia
-section2_btn_txt: Discover more5
+section2_btn_txt: Discover more
 section2_image: /img/girl-smiling.jpg
 section3_subtitle: Indulge yourself
 section3_title: Your secret Place of Beauty
