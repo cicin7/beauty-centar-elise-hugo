@@ -95,7 +95,7 @@ collections:
             widget: "image"
             hint: "----- SECTION 7 -----"
           - label: "Section 7 Subtitle"
-            name: "section47_subtitle"
+            name: "section7_subtitle"
             widget: "string"
           - label: "Section 7 Title"
             name: "section7_title"
