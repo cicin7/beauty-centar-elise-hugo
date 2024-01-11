@@ -761,7 +761,7 @@ body {
 @media screen and (max-width: 980px) {
   .section4--wrap--right {
     width: 100%;
-    padding: 4rem 0rem 4rem 0rem;
+    padding: 4rem 0rem 0rem 0rem;
   }
 }
 
