@@ -35,7 +35,7 @@ collections:
             name: "section3_subtitle"
             widget: "string"
             required: true
-            hint: "----- Section 3 -----"
+            hint: "----- SECTION 3 -----"
           - label: "Section 3 Title"
             name: "section3_title"
             widget: "string"
@@ -58,7 +58,7 @@ collections:
                 name: "description"
                 widget: "string"
             required: true
-            hint: "----- Section 4 -----"
+            hint: "----- SECTION 4 -----"
           - label: "Section 4 Image ( 800 x 800 )"
             name: "section4_image"
             widget: "image"
@@ -82,7 +82,7 @@ collections:
                 name: "description"
                 widget: "string"
             required: true
-            hint: "----- Section 5 -----"
+            hint: "----- SECTION 5 -----"
           - label: "Section 5 Subtitle"
             name: "section5_subtitle"
             widget: "string"
