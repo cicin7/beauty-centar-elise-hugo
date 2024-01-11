@@ -50,7 +50,7 @@ section4_dropdowns:
   - title: "Easy Online Booking"
     description: "Volute magna nemo ipsam placerat turpis ipsum purus sapien ultrice ipsum aliquam an ipsum congue cursus"
 #
-# Section 5
+# Section 54
 #
 section5_subtitle: "Time schedule"
 section5_title: "Working hours"
