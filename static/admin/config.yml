@@ -126,4 +126,7 @@ collections:
               - label: "Duration"
                 name: "duration"
                 widget: "string"
+          - label: "Section 7 Button Text"
+            name: "section7_button_tx"
+            widget: "string"
             hint: "----- SECTION 8 -----"
