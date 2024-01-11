@@ -227,8 +227,7 @@ collections:
         label: "Footer"
         name: "footer"
         fields:
-          - hint: "↓↓↓↓ SECTION 1 ↓↓↓↓↓"
-            label: "Footer Section 1 - Title"
+          - label: "Footer Section 1 - Title"
             name: "footer_section1_title"
             widget: "string"
           - label: "Footer Section 1 - Text"
