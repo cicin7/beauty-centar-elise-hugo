@@ -7,7 +7,7 @@ collections:
   - name: "Homepage"
     label: "Homepage"
     files:
-      - file: "content/index2.md"
+      - file: "content/section2.md"
         label: "Section 2"
         name: "section 2"
         fields:
@@ -29,7 +29,7 @@ collections:
           - label: "Section 3 Subtitle"
             name: "section3_subtitle"
             widget: "string"
-      - file: "content/index3.md"
+      - file: "content/section3.md"
         label: "Section 3"
         name: "section 3"
         fields:
@@ -52,7 +52,7 @@ collections:
               - label: "Icon Description"
                 name: "description"
                 widget: "string"
-      - file: "content/index4.md"
+      - file: "content/section4.md"
         label: "Section 4"
         name: "section 4"
         fields:
@@ -75,7 +75,7 @@ collections:
               - label: "Dropdown Description"
                 name: "description"
                 widget: "string"
-      - file: "content/index5.md"
+      - file: "content/section5.md"
         label: "Section 5"
         name: "section 5"
         fields:
@@ -98,14 +98,14 @@ collections:
               - label: "Hours"
                 name: "hours"
                 widget: "string"
-      - file: "content/index6.md"
+      - file: "content/section6.md"
         label: "Section 6"
         name: "section 6"
         fields:
           - label: "Section 6 Image ( 1920 x 1080 )"
             name: "section6_image"
             widget: "image"
-      - file: "content/index7.md"
+      - file: "content/section7.md"
         label: "Section 7"
         name: "section 7"
         fields:
