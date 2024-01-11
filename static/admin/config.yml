@@ -7,7 +7,7 @@ collections:
   - name: "Sections"
     label: "Sections"
     files:
-      - file: "content/_index2.md"
+      - file: "content/_index.md"
         label: "Section 2"
         name: "section_2"
         fields:
@@ -31,7 +31,7 @@ collections:
             name: "section2_image"
             widget: "image"
             required: true
-      - file: "content/_index3.md"
+      - file: "content/_index.md"
         label: "Section 3"
         name: "section_3"
         fields:
@@ -61,7 +61,7 @@ collections:
                 name: "description"
                 widget: "string"
             required: true
-      - file: "content/_index4.md"
+      - file: "content/_index.md"
         label: "Section 4"
         name: "section_4"
         fields:
@@ -88,7 +88,7 @@ collections:
                 name: "description"
                 widget: "string"
             required: true
-      - file: "content/_index5.md"
+      - file: "content/_index.md"
         label: "Section 5"
         name: "section_5"
         fields:
