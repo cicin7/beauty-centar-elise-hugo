@@ -7,19 +7,19 @@
       <div class="footer--wrap--menus">
         <div class="menus">
           <h2 class="menus--title">{{ .Params.footer_section1_title }}</h2>
-          {{ range .Site.Params.footer_section1 }}
+          {{ range .Params.footer_section1 }}
             <span class="menus-description--info">{{ .info }}</span>
           {{ end }}
         </div>
         <div class="menus">
           <h2 class="menus--title">{{ .Params.footer_section2_title }}</h2>
-          {{ range .Site.Params.footer_section2 }}
+          {{ range .Params.footer_section2 }}
             <span class="menus-description--info">{{ .info }}</span>
           {{ end }}
         </div>
         <div class="menus">
           <h2 class="menus--title">{{ .Params.footer_section3_title }}</h2>
-          {{ range .Site.Params.footer_section3 }}
+          {{ range .Params.footer_section3 }}
             <span class="menus-description--info">{{ .info }}</span>
           {{ end }}
         </div>
